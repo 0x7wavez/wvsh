@@ -224,7 +224,7 @@ int main() {
     int status;
 
     while(1) {
-        printf("mish >> ");
+        printf("wvsh >> ");
         line = mish_read_line(); 
         args = mish_tokenize_line(line);
         status = mish_execute_command(args);
